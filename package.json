@@ -1,0 +1,65 @@
+{
+  "name": "@digitalbazaar/vvc-context",
+  "version": "0.0.1-0",
+  "description": "Verifiable Vehicle Credentials JSON-LD Contexts",
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "exports": {
+    "import": "./lib/index.js",
+    "require": "./dist/main.cjs"
+  },
+  "files": [
+    "contexts/**/*.jsonld",
+    "dist/**/*.LICENSE.txt",
+    "dist/**/main.cjs",
+    "lib/**/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/vvc-context"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/vvc-context/issues"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "homepage": "https://github.com/digitalbazaar/vvc-context#readme",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [
+    "JSON-LD context",
+    "JSON-LD",
+    "Linked Data",
+    "Verifiable Credentials",
+    "context"
+  ],
+  "devDependencies": {
+    "@digitalbazaar/eslint-config": "^7.0.0",
+    "chai": "^4.5.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.39.2",
+    "karma": "^6.4.4",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-mocha": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-sourcemap-loader": "^0.4.0",
+    "karma-webpack": "^5.0.1",
+    "mocha": "^11.7.5",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run serialize && webpack",
+    "clean": "rm -rf dist/* && rm -rf contexts/*.jsonld",
+    "lint": "eslint",
+    "prepare": "npm run build",
+    "serialize": "node bin/serialize.js",
+    "test": "npm run lint && npm run build && npm run test-node && npm run test-karma",
+    "test-karma": "karma start test/karma.conf.cjs",
+    "test-node": "cross-env NODE_ENV=test mocha --preserve-symlinks test/**/*.spec.js test/**/*.spec.cjs"
+  }
+}
