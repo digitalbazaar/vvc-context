@@ -1,6 +1,6 @@
 {
   "name": "@digitalbazaar/vvc-context",
-  "version": "0.0.1-0",
+  "version": "1.0.0",
   "description": "Verifiable Vehicle Credentials JSON-LD Contexts",
   "type": "module",
   "main": "./lib/index.js",
