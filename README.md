@@ -31,7 +31,7 @@ TBD
 
 ## Install
 
-Requires [Node.js][] 20+
+Requires [Node.js][] 22+
 
 To install via [NPM][]:
 
@@ -77,16 +77,24 @@ The following contexts are available as of early-2026. They track the published
 spec contexts.
 
 - Verifiable Vehicle Credentials v1rc1 context
-  - URL: `https://w3id.org/vc-dpp/v1rc1`
+  - URL: `https://w3id.org/vvc/v1rc1`
   - Short name: `v1rc1`
   - Status: development
 - Verifiable Vehicle Credentials v1rc2 context
-  - URL: `https://w3id.org/vc-dpp/v1rc2`
+  - URL: `https://w3id.org/vvc/v1rc2`
   - Short name: `v1rc2`
   - Status: development
 - Verifiable Vehicle Credentials v1rc3 context
-  - URL: `https://w3id.org/vc-dpp/v1rc3`
+  - URL: `https://w3id.org/vvc/v1rc3`
   - Short name: `v1rc3`
+  - Status: development
+- Verifiable Vehicle Credentials v1rc4 context
+  - URL: `https://w3id.org/vvc/v1rc4`
+  - Short name: `v1rc4`
+  - Status: development
+- Verifiable Vehicle Credentials v1rc5 context
+  - URL: `https://w3id.org/vvc/v1rc5`
+  - Short name: `v1rc5`
   - Status: development
 
 ## Developing
