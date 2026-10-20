@@ -33,7 +33,7 @@ TBD
 
 ## Install
 
-Requires [Node.js][] 24+
+Requires [Node.js][] 22+
 
 To install via [NPM][]:
 
