@@ -7,15 +7,17 @@
 
 ## Table of Contents
 
-- [Background](#background)
-- [Security](#security)
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-- [Status](#status)
-- [Developing](#developing)
-- [Commercial Support](#commercial-support)
-- [License](#license)
+- [Verifiable Vehicle Credentials JSON-LD Contexts _(@digitalbazaar/vvc-context)_](#verifiable-vehicle-credentials-json-ld-contexts-digitalbazaarvvc-context)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+  - [Security](#security)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [API](#api)
+  - [Status](#status)
+  - [Developing](#developing)
+  - [Commercial Support](#commercial-support)
+  - [License](#license)
 
 ## Background
 
@@ -31,7 +33,7 @@ TBD
 
 ## Install
 
-Requires [Node.js][] 20+
+Requires [Node.js][] 24+
 
 To install via [NPM][]:
 
