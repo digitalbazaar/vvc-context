@@ -7,17 +7,15 @@
 
 ## Table of Contents
 
-- [Verifiable Vehicle Credentials JSON-LD Contexts _(@digitalbazaar/vvc-context)_](#verifiable-vehicle-credentials-json-ld-contexts-digitalbazaarvvc-context)
-  - [Table of Contents](#table-of-contents)
-  - [Background](#background)
-  - [Security](#security)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [API](#api)
-  - [Status](#status)
-  - [Developing](#developing)
-  - [Commercial Support](#commercial-support)
-  - [License](#license)
+- [Background](#background)
+- [Security](#security)
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+- [Status](#status)
+- [Developing](#developing)
+- [Commercial Support](#commercial-support)
+- [License](#license)
 
 ## Background
 
