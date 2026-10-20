@@ -6,7 +6,7 @@
 - VVC `v1rc4` & `v1rc5` contexts.
 
 ### Changed
-- Require Node 24+.
+- Require Node 22+.
 
 ## 1.0.0 - 2026-01-22
 
