@@ -73,8 +73,7 @@ strict file digests are not equivalent.
 
 ## Status
 
-The following contexts are available as of early-2026. They track the published
-spec contexts.
+The following contexts are available. They track the published spec contexts.
 
 - Verifiable Vehicle Credentials v1rc1 context
   - URL: `https://w3id.org/vvc/v1rc1`
@@ -96,6 +95,10 @@ spec contexts.
   - URL: `https://w3id.org/vvc/v1rc5`
   - Short name: `v1rc5`
   - Status: development
+- Verifiable Vehicle Credentials v1 context
+  - URL: `https://w3id.org/vvc/v1`
+  - Short name: `v1`
+  - Status: stable
 
 ## Developing
 
