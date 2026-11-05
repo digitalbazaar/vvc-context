@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2025-2026 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2025-2026 Digital Bazaar, Inc.
  */
 /* global it */
 module.exports.tests = function({contexts, metadata, named, expect}) {

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*!
- * Copyright (c) 2023-2026 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2023-2026 Digital Bazaar, Inc.
  */
 import fs from 'node:fs';
 import {metadata} from '../lib/index.js';
