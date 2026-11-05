@@ -1,6 +1,6 @@
 # @digitalbazaar/vvc-context ChangeLog
 
-## 1.1.0 - 2026-11-dd
+## 1.1.0 - 2026-11-05
 
 ### Added
 - VVC `v1rc4`, `v1rc5`, and `v1` contexts.
