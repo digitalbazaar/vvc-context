@@ -6,8 +6,7 @@ All other files are licensed under a BSD 3-Clause license:
 ```
 BSD 3-Clause License
 
-Copyright (c) 2019-2025, Digital Bazaar, Inc.
-All rights reserved.
+Copyright (c) 2019-2026, Digital Bazaar, Inc.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
